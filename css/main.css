@@ -91,7 +91,13 @@ textarea {
 
   html {
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
   }
+
+  header {
+    padding: 15px 0;
+  }
+
   header,
   footer {
     display: flex;
@@ -101,27 +107,48 @@ textarea {
     
   }
   
+  h2 {
+    margin-top: 55px;
+    font-size: 1.875em;
+  }
   
   header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
   } 
+
+  .header-divider {
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
 
   header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 60%;
   }
 
   header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 45%;
   }
 
+  header nav ul li {
+    padding: 0 60px;
+    list-style: none;
+    text-transform: uppercase;
+  }
 
+  .content-wrapper {
+    width: 90%;
+    
+  }
 
 
   .hero-area {
@@ -134,9 +161,17 @@ textarea {
 
   aside {
     display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto 20px;
+    
+  }
+
+  aside form, 
+  button {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
 
   aside form {
@@ -147,9 +182,12 @@ textarea {
     display: flex;  
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-    padding: 1em 1.25em;
 
+  }
+
+  .features article {
+    width: 45%;
+    margin: 53px 85px;
   }
 
   .features .features-items {
@@ -161,6 +199,7 @@ textarea {
 
   .features p {
     text-align: center;
+    margin: 0;
     
   }
 
@@ -172,8 +211,17 @@ textarea {
     padding: 1em 1.25em;
   }
 
+  .reviews h3 {
+    width: 81%;
+  }
+
   footer {
     text-align: center;
+  }
+
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
   }
 
   footer .social-icons {
@@ -187,6 +235,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
 /*-- end Homepage Styles --*/
@@ -198,6 +247,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    
   }
 
   .contact-section {
@@ -205,6 +255,10 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  .contact-content p {
+    margin: 0;
   }
 
 /*-- end About Page Styles --*/
@@ -219,6 +273,7 @@ textarea {
   }
 
   .faq .contact-wrapper {
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
