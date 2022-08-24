@@ -88,12 +88,41 @@ textarea {
    ========================================================================== */
   
   /*-- Base Styles --*/
-
   html {
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+      color: #222;
+    line-height: 1.4;
+  }
+  
+  body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #e2e3ed;
+    background-color: #202322;
   }
 
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 55px;
+    font-size: 1.5em;
+}
+
+  h3, 
+  h4 {
+      font-size: 1.17em;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 18pt;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  a {
+      color: #e2e3ed;
+      text-decoration: none;
+  }
   header {
     padding: 15px 0;
   }
@@ -107,11 +136,7 @@ textarea {
     
   }
 
-  
-  h2 {
-    margin-top: 55px;
-    font-size: 1.875em;
-  }
+
   
   header .content-wrapper {
     display: flex;
@@ -201,6 +226,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background: #527158;
     
   }
 
@@ -215,6 +241,14 @@ textarea {
   aside form {
     padding: 1.1em;
     
+  }
+
+  aside button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #e2e3ed;
+    background-color: #2a423a;
+    text-transform: uppercase;
   }
 
   .features {
@@ -248,6 +282,7 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     padding: 1em 1.25em;
+    background-color: #2a423a;
   }
 
   .reviews h2 {
