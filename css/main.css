@@ -101,6 +101,11 @@ textarea {
     background-color: #202322;
   }
 
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
   h2 {
     font-family: 'Poppins', sans-serif;
     margin-top: 55px;
@@ -172,13 +177,10 @@ textarea {
     text-transform: uppercase;
   }
 
-  .content-wrapper {
-    width: 90%;
-    
-  }
 
   footer {
     flex-direction: column;
+    text-align: center;
   }
   
   footer p {
@@ -230,25 +232,39 @@ textarea {
     
   }
 
-  aside input .form, 
+  aside .form {
+    margin-top: 30px;
+  }
+
+  aside input form, 
   button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
 
-  aside form {
-    padding: 1.1em;
-    
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
   }
+
 
   aside button {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
+    font-size: 1.125em;
     color: #e2e3ed;
     background-color: #2a423a;
     text-transform: uppercase;
+    border: none;
+    text-align: center;
+
   }
 
   .features {
@@ -273,7 +289,7 @@ textarea {
   .features p {
     text-align: center;
     margin: 0;
-    
+    font-size: 0.875em;
   }
 
   .reviews {
@@ -287,11 +303,18 @@ textarea {
 
   .reviews h2 {
     margin-bottom: 40px;
+    font-size: 1.875em;
+    line-height: 30pt;
   }
 
   .reviews h3 {
-    width: 55% ;
+    width: 83% ;
     margin: 20px 0;
+    font-size: 1.125em;
+  }
+
+  .reviews p {
+    font-size: 0.875em;
   }
 
   
