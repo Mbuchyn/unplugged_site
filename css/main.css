@@ -259,7 +259,11 @@
       background: #527158;
       
     }
-  
+    
+    aside h3 {
+      font-size: 1.875;
+    }
+
     aside .form {
       margin-top: 30px;
     }
@@ -321,6 +325,11 @@
       text-align: center;
       margin: 0;
       font-size: 0.875em;
+    }
+
+    .features i {
+      font-size: 3.75em;
+            margin-bottom: 40px;
     }
   
     .reviews {
@@ -679,6 +688,7 @@
         max-width: 960px;
     }
   
+   
     /* Hero */
     .hero-area h1 {
       width: 60%;
@@ -693,28 +703,46 @@
     aside .content-wrapper .form {
       width: 30%;
     }
-  
+
+    button {
+      height: 50px;
+    }
+
     .form-description p {
       font-size: 1.125em;
+      line-height: 24pt;
     }
   
   
     /* Features */
+
     .features h2 {
       width: 90%;
     }
+
+    .features .features-items {
+      justify-content: space-between;
+    }
   
     .features article {
-      flex-basis: 33%;
+      flex-basis: 30%;
+      
+    }
+
+    .features p {
+      width: 70%;
     }
   
     /* Reviews */ 
-    .reviews article div {
+
+    .reviews .past-team {
       width: 45%;
     }
-  
-    .reviews img {
+    .reviews article figure {
       width: 38%;
+    }
+    .reviews img {
+      width: 100%;
     }
   
     /* ==========================================================================
