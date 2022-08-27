@@ -587,16 +587,14 @@
     }
   
     header figure {
-      width: 30%;
+      width: 40%;
     }
   
     header nav {
-      width: 20%;
+      width: 30%;
     }
   
-    header nav ul {
-      justify-content: space-between;
-    }
+   
   
     .header-divider {
       display: none;
@@ -604,6 +602,21 @@
   
   
     /**** Homepage Only Styles ****/
+
+    
+  /* Hero Area Styles*/
+
+  .hero-area {
+    min-height: 600px;
+  }  
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
+
+    
       /* Aside Styles */
       
       aside .content-wrapper {
@@ -720,10 +733,10 @@
     .mission-content p {
       width: 45%;
     }
+    
   
-    .map figure {
-      padding-bottom: 45.5%;
-    }
+
+
   
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -848,10 +861,6 @@
     .mission .content-wrapper {
       width: 100%;
       
-    }
-    
-    .map figure {
-      padding-bottom: 37.5%;
     }
   
     .mission h2,
